@@ -7,6 +7,7 @@ toc: false
 
 [joel.zindel@biol.ethz.ch](mailto:joel.zindel@biol.ethz.ch)
 +41 44 633 37 78
+<a href="https://www.linkedin.com/in/joel-zindel-a6477429b/" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
 
 ETH Zürich
 Institute of Molecular Health Sciences
@@ -17,7 +18,8 @@ Otto-Stern-Weg 7
 ## Administrative assistant
 
 Corina Bühlmann
+[corina.buehlmann@biol.ethz.ch](mailto:corina.buehlmann@biol.ethz.ch)
 
 ## Joining the lab
 
-<!-- TODO: a paragraph for prospective students/postdocs -->
+For PhD positions, postdoctoral fellowships, semester projects, and master projects or summer internships, see the [Job Opportunities](jobs.qmd) page.
