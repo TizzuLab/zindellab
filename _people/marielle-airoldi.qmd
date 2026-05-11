@@ -6,7 +6,7 @@ and uncomment the image line below.
 
 ::: {.person-card}
 
-<!-- ![](assets/people/marielle-airoldi.jpg){.person-photo} -->
+![](assets/people/marielle-airoldi.jpg){.person-photo}
 
 ### Marielle Airoldi
 <p class="role">PhD Student</p>

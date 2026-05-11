@@ -6,7 +6,7 @@ and uncomment the image line below.
 
 ::: {.person-card}
 
-<!-- ![](assets/people/franziska-empenberger.jpg){.person-photo} -->
+![](assets/people/franziska-empenberger.jpg){.person-photo}
 
 ### Franziska Empenberger
 <p class="role">Research Technician</p>

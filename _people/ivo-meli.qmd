@@ -6,7 +6,7 @@ and uncomment the image line below.
 
 ::: {.person-card}
 
-<!-- ![](assets/people/ivo-meli.jpg){.person-photo} -->
+![](assets/people/ivo-meli.jpg){.person-photo}
 
 ### Ivo Meli
 <p class="role">Research Technician</p>

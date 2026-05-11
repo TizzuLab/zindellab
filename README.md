@@ -12,6 +12,18 @@ Open your file in [`_people/`](https://github.com/TizzuLab/zindellab/tree/main/_
 
 The site rebuilds within ~1–2 minutes. You can watch progress at [github.com/TizzuLab/zindellab/actions](https://github.com/TizzuLab/zindellab/actions).
 
+**Bio format — please keep it short** (one or two sentences). Useful template:
+
+> *[Background / previous training] — [what you focus on in the lab].*
+
+Examples:
+
+- *PhD candidate in immunology, BSc/MSc from Bern. Investigating MARCO-dependent macrophage aggregation in peritoneal injury.*
+- *Research technician with a background in molecular biology. Maintains the lab's transgenic mouse colonies and supports intravital imaging experiments.*
+- *Trainee from the cantonal hospital on a research rotation. Working on mesothelial single-cell transcriptomics.*
+
+Consistent length across cards keeps the People page visually clean — please resist the urge to write your full CV here.
+
 ### 2. Add or replace your photo
 
 1. Prepare a **square JPG**, about 600×600 px, ideally under 100 KB. The free in-browser tool [squoosh.app](https://squoosh.app) does this in a few clicks (drop your photo, set Resize to 600 px, save).
