@@ -1,0 +1,23 @@
+---
+title: "Contact"
+toc: false
+---
+
+## Prof. Dr. Joel Zindel
+
+[joel.zindel@biol.ethz.ch](mailto:joel.zindel@biol.ethz.ch)
++41 44 633 37 78
+
+ETH Zürich
+Institute of Molecular Health Sciences
+HPL F 32.2
+Otto-Stern-Weg 7
+8093 Zürich, Switzerland
+
+## Administrative assistant
+
+Corina Bühlmann
+
+## Joining the lab
+
+<!-- TODO: a paragraph for prospective students/postdocs -->

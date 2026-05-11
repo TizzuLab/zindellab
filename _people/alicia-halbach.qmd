@@ -1,0 +1,20 @@
+<!--
+EDIT THIS FILE: your name, role, room, email, phone, and bio.
+Add a photo: save a square JPG (~600×600 px) as assets/people/alicia-halbach.jpg
+and uncomment the image line below.
+-->
+
+::: {.person-card}
+
+<!-- ![](assets/people/alicia-halbach.jpg){.person-photo} -->
+
+### Alicia Halbach
+<p class="role">PhD Student</p>
+
+::: {.contact}
+Inst. f. Molecular Health Sciences, HPL F 25.2
+
+[alicia.halbach@biol.ethz.ch](mailto:alicia.halbach@biol.ethz.ch)
+:::
+
+:::

@@ -1,0 +1,70 @@
+---
+title: "People"
+toc: false
+---
+
+<!--
+This page is composed from per-person partial files in _people/.
+To edit your own card, open the matching file in _people/ and change it there.
+The leading underscore means Quarto won't render the partials as standalone pages.
+-->
+
+## Group Leader
+
+::: {.people-grid}
+
+{{< include _people/joel-zindel.qmd >}}
+
+:::
+
+## Administrative Assistant
+
+::: {.people-grid}
+
+{{< include _people/corina-buhlmann.qmd >}}
+
+:::
+
+## Senior Research Associate
+
+::: {.people-grid}
+
+{{< include _people/tea-kocijan.qmd >}}
+
+:::
+
+## Research Technicians
+
+::: {.people-grid}
+
+{{< include _people/franziska-empenberger.qmd >}}
+
+{{< include _people/ivo-meli.qmd >}}
+
+:::
+
+## PhD Students
+
+::: {.people-grid}
+
+{{< include _people/marielle-airoldi.qmd >}}
+
+{{< include _people/john-li-flores-alvarez.qmd >}}
+
+{{< include _people/alicia-halbach.qmd >}}
+
+{{< include _people/agnes-huber.qmd >}}
+
+{{< include _people/brooke-slade.qmd >}}
+
+:::
+
+## Trainee
+
+::: {.people-grid}
+
+{{< include _people/sophia-kuhn.qmd >}}
+
+:::
+
+<!-- Alumni section will go here when applicable. -->

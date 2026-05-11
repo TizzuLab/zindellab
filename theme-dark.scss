@@ -1,0 +1,196 @@
+/*-- scss:defaults --*/
+
+$body-bg: #0a0a0a;
+$body-color: #e8e8e8;
+$link-color: #26a9e0;
+$link-hover-color: #E07A5F;
+
+$navbar-bg: #000;
+$footer-bg: #000;
+
+$font-family-sans-serif: "DIN Next", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$headings-font-weight: 600;
+$headings-color: #f5f5f5;
+
+$border-color: #1f1f1f;
+$card-bg: #111;
+$card-border-color: #1f1f1f;
+
+/*-- scss:rules --*/
+
+/* DIN Next webfont (ETH license, served from assets/fonts/) */
+@font-face {
+  font-family: "DIN Next";
+  src: url("/assets/fonts/DINNextLTW05-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DIN Next";
+  src: url("/assets/fonts/DINNextLTW05-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DIN Next";
+  src: url("/assets/fonts/DINNextLTW05-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DIN Next";
+  src: url("/assets/fonts/DINNextLTW05-MediumItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DIN Next";
+  src: url("/assets/fonts/DINNextLTW05-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DIN Next";
+  src: url("/assets/fonts/DINNextLTW05-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+body {
+  font-feature-settings: "kern", "liga", "calt";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.005em;
+}
+
+.navbar {
+  border-bottom: 1px solid #1a1a1a;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.navbar-brand img.navbar-logo {
+  max-height: 38px;
+  width: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.lab-hero {
+  padding: 4rem 0 3rem;
+}
+
+.lab-hero h1 {
+  font-size: clamp(2.25rem, 5vw, 3.75rem);
+  letter-spacing: -0.025em;
+  line-height: 1.05;
+  margin-bottom: 1.25rem;
+}
+
+.lab-hero .lab-hero-logo {
+  max-width: min(640px, 80%);
+  height: auto;
+  margin: 0 0 2rem;
+  display: block;
+}
+
+.lab-hero p {
+  color: #cfcfcf;
+  font-size: 1.2rem;
+  line-height: 1.55;
+  max-width: 62ch;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-footer {
+  border-top: 1px solid #1a1a1a;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+/* People grid — fixed-width columns so all cards (PI and members) match */
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 280px));
+  gap: 1.5rem;
+  margin: 1.5rem 0 2.5rem;
+  justify-content: start;
+}
+
+.person-card {
+  background: #111;
+  border: 1px solid #1f1f1f;
+  border-radius: 4px;
+  padding: 1.25rem;
+}
+
+.person-card h3 {
+  font-size: 1.05rem;
+  margin: 0 0 0.2rem;
+}
+
+.person-card .role {
+  color: #b0b0b0;
+  font-size: 0.9rem;
+  margin: 0 0 0.75rem;
+}
+
+.person-card .person-photo {
+  width: calc(100% + 2.5rem);
+  margin: -1.25rem -1.25rem 1rem;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  border-radius: 4px 4px 0 0;
+}
+
+.person-card .contact {
+  color: #888;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.person-card .contact p {
+  margin: 0 0 0.25rem;
+}
+
+.person-card .contact a {
+  color: inherit;
+}
+
+.person-card .contact a:hover {
+  color: $link-hover-color;
+}
+
+/* Quarto hardcodes $link-color for hover on several interactive elements;
+   force them to use $link-hover-color so terracotta is visible everywhere. */
+.sidebar nav[role=doc-toc] ul > li > a:hover,
+.sidebar nav[role=doc-toc] ul > li > ul > li > a:hover,
+.sidebar .toc-actions a:hover,
+.sidebar .quarto-other-links a:hover,
+.navbar .navbar-nav .nav-link:hover,
+.navbar .quarto-navbar-tools .quarto-navigation-tool:hover,
+.quarto-notebook-link:hover {
+  color: $link-hover-color !important;
+}

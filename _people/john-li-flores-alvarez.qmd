@@ -1,0 +1,20 @@
+<!--
+EDIT THIS FILE: your name, role, room, email, phone, and bio.
+Add a photo: save a square JPG (~600×600 px) as assets/people/john-li-flores-alvarez.jpg
+and uncomment the image line below.
+-->
+
+::: {.person-card}
+
+<!-- ![](assets/people/john-li-flores-alvarez.jpg){.person-photo} -->
+
+### John Li Flores Alvarez
+<p class="role">PhD Student</p>
+
+::: {.contact}
+Inst. f. Molecular Health Sciences, HPL F 16.2
+
+[john.floresalvarez@biol.ethz.ch](mailto:john.floresalvarez@biol.ethz.ch)
+:::
+
+:::

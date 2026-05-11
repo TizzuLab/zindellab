@@ -1,0 +1,47 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - CNAME
+    - assets/fonts/*.woff2
+
+website:
+  title: "Zindel Lab"
+  description: "Imaging lab at ETH Zürich"
+  site-url: https://zindellab.ch
+  favicon: assets/favicon.png
+  navbar:
+    background: "#000"
+    logo: assets/logo.webp
+    logo-alt: "Zindel Lab — ETH Zürich"
+    title: false
+    left:
+      - href: index.qmd
+        text: Research
+      - href: people.qmd
+        text: People
+      - href: publications.qmd
+        text: Publications
+      - href: jobs.qmd
+        text: Job Opportunities
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: github
+        href: https://github.com/TizzuLab/zindellab
+        aria-label: GitHub
+  page-footer:
+    background: "#000"
+    left: "© 2026 Zindel Lab · ETH Zürich"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      - darkly
+      - theme-dark.scss
+    toc: false
+    code-link: true
+    grid:
+      body-width: 900px
+    link-external-newwindow: true

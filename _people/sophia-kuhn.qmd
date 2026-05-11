@@ -1,0 +1,20 @@
+<!--
+EDIT THIS FILE: your name, role, room, email, phone, and bio.
+Add a photo: save a square JPG (~600×600 px) as assets/people/sophia-kuhn.jpg
+and uncomment the image line below.
+-->
+
+::: {.person-card}
+
+<!-- ![](assets/people/sophia-kuhn.jpg){.person-photo} -->
+
+### Sophia Kühn
+<p class="role">Trainee</p>
+
+::: {.contact}
+Inst. f. Molecular Health Sciences, HPL F 16.2
+
+[sophia.kuehn@biol.ethz.ch](mailto:sophia.kuehn@biol.ethz.ch)
+:::
+
+:::

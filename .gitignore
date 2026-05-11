@@ -1,0 +1,27 @@
+# Quarto build output
+/.quarto/
+/_site/
+/_freeze/
+**/*.quarto_ipynb
+
+# Claude Code per-user settings (keep .claude/settings.json if/when you add shared project config)
+.claude/settings.local.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+__MACOSX/
+.idea/
+.vscode/
+*.swp
+*~
+*.bak
+*.tmp
+
+# Python (we use it for image-processing scripts)
+__pycache__/
+*.pyc
+
+# Credentials safety net (in case you ever add an .env for an API key, etc.)
+.env
+.env.local

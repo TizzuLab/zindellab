@@ -1,0 +1,22 @@
+<!--
+EDIT THIS FILE: name, role, room, email, phone.
+Add a photo: save a square JPG (~600×600 px) as assets/people/corina-buhlmann.jpg
+and uncomment the image line below.
+-->
+
+::: {.person-card}
+
+<!-- ![](assets/people/corina-buhlmann.jpg){.person-photo} -->
+
+### Corina Bühlmann
+<p class="role">Administrative Assistant</p>
+
+::: {.contact}
+Inst. f. Molecular Health Sciences, HPL F 14.1
+
+[corina.buehlmann@biol.ethz.ch](mailto:corina.buehlmann@biol.ethz.ch)
+
++41 44 633 33 52
+:::
+
+:::

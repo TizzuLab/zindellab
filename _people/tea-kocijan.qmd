@@ -1,0 +1,20 @@
+<!--
+EDIT THIS FILE: your name, role, room, email, phone, and bio.
+Add a photo: save a square JPG (~600×600 px) as assets/people/tea-kocijan.jpg
+and uncomment the image line below.
+-->
+
+::: {.person-card}
+
+<!-- ![](assets/people/tea-kocijan.jpg){.person-photo} -->
+
+### Tea Kocijan
+<p class="role">Senior Research Associate</p>
+
+::: {.contact}
+Inst. f. Molecular Health Sciences, HPL F 16.2
+
+[tea.kocijan@biol.ethz.ch](mailto:tea.kocijan@biol.ethz.ch)
+:::
+
+:::

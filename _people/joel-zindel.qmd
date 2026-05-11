@@ -1,0 +1,23 @@
+<!--
+EDIT THIS FILE: your name, role, room, email, phone, and bio.
+Photo path: assets/people/joel-zindel.jpg (square JPG, ~600 px).
+-->
+
+::: {.person-card}
+
+![](assets/people/joel-zindel.jpg){.person-photo}
+
+### Joel Zindel
+<p class="role">Group Leader · Professor, ETH Zürich</p>
+
+::: {.contact}
+Inst. f. Molecular Health Sciences, HPL F 32.2
+
+[joel.zindel@biol.ethz.ch](mailto:joel.zindel@biol.ethz.ch)
+
++41 44 633 37 78
+:::
+
+:::
+
+Joel Zindel, born in 1986, a Swiss citizen and father of three, completed his medical degree and subsequently received an MD from the University of Bern. He underwent specialist training in General Surgery in Tanzania and Bern (FMH Chirurgie). During his clinical experience, he recognized that surgery, while beneficial, often leads to devastating internal scarring — so-called adhesions — that can complicate patients' lives with significant long-term problems. Motivated by the need to understand and address these issues, he pursued a PhD in Immunology at the University of Bern and a two-year SNSF-sponsored research fellowship in Canada with a focus on macrophage biology and tissue repair. With the support of a Max Cloëtta Research Fellowship and an SNSF Starting Grant, he established his own research group, initially founded in 2023 in Bern and moved to ETH Zürich in August 2025.
