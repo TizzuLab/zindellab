@@ -3,7 +3,7 @@ title: "Research"
 pagetitle: "Zindel Lab — Imaging at ETH Zürich"
 toc: true
 ---
-<br><br>
+<br><br><br><br>
 
 ![](assets/repair-outcomes.webp)
 
