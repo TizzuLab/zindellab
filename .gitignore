@@ -7,6 +7,9 @@
 # Claude Code per-user settings (keep .claude/settings.json if/when you add shared project config)
 .claude/settings.local.json
 
+# Claude Code project-context file — internal notes for AI assistants, not for public repo
+CLAUDE.md
+
 # OS / editor noise
 .DS_Store
 Thumbs.db
