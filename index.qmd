@@ -11,7 +11,7 @@ Life is full of risks. From microbes to major accidents, injury is a challenge e
 
 We study what happens at the interface of immunity, tissue repair, and the body cavities. Our work has clinical roots — many of the questions we ask come from problems we encountered in the operating room — but our methods are squarely in mechanistic basic science.
 
-![Pattern recognition and extracellular-DNA sensing by scavenger receptors.](assets/scavenger-receptors-dna.webp)
+![Macrophage clusters at peritoneal injuries — mouse and human.](assets/macrophage-injury-zoom.webp)
 
 ## Themes
 
@@ -19,7 +19,7 @@ We study what happens at the interface of immunity, tissue repair, and the body 
 
 GATA6⁺ macrophages float in the peritoneal fluid and, within minutes of injury, vanish from suspension and pile onto the wound — the so-called macrophage disappearance reaction. We showed this aggregation is driven by scavenger receptors MARCO and MSR1, depends on calcium, and is conserved all the way to sea urchin coelomocytes. We now ask which ligand engages the scavenger receptors, why aggregation is calcium-dependent, why these cells don't aggregate spontaneously, and how their post-injury fate shapes repair versus scarring.
 
-![Macrophage clusters at peritoneal injuries — mouse and human.](assets/macrophage-injury-zoom.webp)
+![Pattern recognition and extracellular-DNA sensing by scavenger receptors.](assets/scavenger-receptors-dna.webp)
 
 ### Mesothelial to Mesenchymal Transition
 
