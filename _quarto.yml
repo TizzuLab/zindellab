@@ -12,6 +12,7 @@ website:
   favicon: assets/favicon.png
   navbar:
     background: "#000"
+    pinned: true
     logo: assets/logo.webp
     logo-alt: "Zindel Lab — ETH Zürich"
     title: false
