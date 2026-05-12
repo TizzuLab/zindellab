@@ -11,6 +11,16 @@ Life is full of risks. From microbes to major accidents, injury is a challenge e
 
 We study what happens at the interface of immunity, tissue repair, and the body cavities. Our work has clinical roots — many of the questions we ask come from problems we encountered in the operating room — but our methods are squarely in mechanistic basic science.
 
+::: {.lecture-embed}
+**▶ After the Scalpel — Beyond Innate Tissue Repair**
+*Joel's inaugural lecture at ETH Zürich (April 2026, ~25 min) — an overview of the lab's program, from clinical roots to mechanism.*
+
+<iframe name="Tobira Player"
+  src="https://video.ethz.ch/~embed/!v/Ks25B0xXscN?t=03m51s"
+  allow="fullscreen"
+  style="border: none; width: 100%; aspect-ratio: 1920/1080;"></iframe>
+:::
+
 ![Macrophage clusters at peritoneal injuries — mouse and human.](assets/macrophage-injury-zoom.webp)
 
 ## Themes

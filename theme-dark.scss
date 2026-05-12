@@ -184,6 +184,22 @@ img {
   color: $link-hover-color;
 }
 
+/* Embedded ETH lecture (or any video) — narrow, centered. */
+.lecture-embed {
+  max-width: 640px;
+  margin: 2rem auto 2.5rem;
+  text-align: center;
+}
+
+.lecture-embed p {
+  margin: 0 0 0.5rem;
+}
+
+.lecture-embed iframe {
+  margin-top: 0.75rem;
+  border-radius: 4px;
+}
+
 /* Quarto hardcodes $link-color for hover on several interactive elements;
    force them to use $link-hover-color so terracotta is visible everywhere. */
 .sidebar nav[role=doc-toc] ul > li > a:hover,
