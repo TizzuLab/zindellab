@@ -28,3 +28,12 @@ __pycache__/
 # Credentials safety net (in case you ever add an .env for an API key, etc.)
 .env
 .env.local
+
+# Large source/master video files — keep locally for editing, never commit.
+# Compressed snippets (a few MB each) in assets/videos/ are fine to commit;
+# only the multi-hundred-MB masters are excluded.
+assets/videos/moving_cells.mp4
+
+# Local backups of pre-re-encode video sources (safety net before lossy re-encodes).
+# Kept locally so we can recover if a re-encode goes wrong; not for the repo.
+assets/videos/.orig/

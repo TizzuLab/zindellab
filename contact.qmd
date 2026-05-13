@@ -23,3 +23,10 @@ Corina Bühlmann
 ## Joining the lab
 
 For PhD positions, postdoctoral fellowships, semester projects, and master projects or summer internships, see the [Job Opportunities](jobs.qmd) page.
+
+<figure>
+<video autoplay muted loop playsinline preload="metadata"
+       style="width:100%; height:auto; display:block;">
+  <source src="/assets/videos/CellSize.mp4" type="video/mp4">
+</video>
+</figure>
