@@ -1,97 +1,87 @@
 ---
-title: "Research"
-pagetitle: "Zindel Lab — Imaging at ETH Zürich"
-toc: true
+pagetitle: "Zindel Lab — ETH Zürich"
+toc: false
 ---
-<br><br><br><br>
 
-![](assets/repair-outcomes.webp)
+::: {.lab-hero}
+![Zindel Lab](assets/logo.webp){.lab-hero-logo}
 
-Life is full of risks. From microbes to major accidents, injury is a challenge every organism faces, with profound biological consequences. Injury and repair are of ancient origin, conserved from sea urchins to mammals. In an ideal world, the immune system detects damage and triggers a regenerative response that restores both tissue function and architecture *ad integrum*. In most mammals, repair is fast but imperfect — it leaves a scar.
+[ETH Zürich · Institute of Molecular Health Sciences]{.hero-place}
 
-We study what happens at the interface of immunity, tissue repair, and the body cavities. Our work has clinical roots — many of the questions we ask come from problems we encountered in the operating room — but our methods are squarely in mechanistic basic science.
+At the Zindel Lab, our mission is to improve patient outcomes after surgery by advancing the understanding of tissue repair, regeneration, and foreign body biology. Through innovative and rigorous biomedical research, we aim to uncover the cellular and molecular mechanisms that drive healing processes and identify novel strategies to enhance recovery, prevent complications, and improve implant function.
 
-::: {.lecture-embed}
-**▶ After the Scalpel — Beyond Innate Tissue Repair**
-*Joel's inaugural lecture at ETH Zürich (April 2026, ~25 min) — an overview of the lab's program, from clinical roots to mechanism.*
-
-<iframe name="Tobira Player"
-  src="https://video.ethz.ch/~embed/!v/Ks25B0xXscN?t=03m51s"
-  allow="fullscreen"
-  style="border: none; width: 100%; aspect-ratio: 1920/1080;"></iframe>
+Beyond advancing science, we are committed to creating value for society — particularly in Switzerland — by translating discoveries into innovations, collaborating with industry partners, fostering entrepreneurial opportunities, and educating the next generation of scientists and clinicians who will shape the future of regenerative medicine and surgical care.
 :::
 
-## Themes
-
-### Cavity Macrophage Aggregation
-
-GATA6⁺ macrophages float in the peritoneal fluid and, within minutes of injury, vanish from suspension and pile onto the wound — the so-called macrophage disappearance reaction. We showed this aggregation is driven by scavenger receptors MARCO and MSR1, depends on calcium, and is conserved all the way to sea urchin coelomocytes. We now ask which ligand engages the scavenger receptors, why aggregation is calcium-dependent, why these cells don't aggregate spontaneously, and how their post-injury fate shapes repair versus scarring.
-
-<figure>
-<video autoplay muted loop playsinline preload="metadata"
-       style="width:100%; height:auto; display:block;">
-  <source src="/assets/videos/Aggregation.mp4" type="video/mp4">
-</video>
-<figcaption>Live aggregation of peritoneal macrophages at a wound — the macrophage disappearance reaction captured by intravital microscopy.</figcaption>
-</figure>
-
-### Mesothelial to Mesenchymal Transition
-
-After surgery, healthy mesothelial cells lose their epithelial identity, turn migratory, and reprogram into myofibroblasts that lay down scar. We've mapped some of this transition and shown it depends on cues from the peritoneal microenvironment, including microbial contamination and EGFR signaling. We are now dissecting the molecular mechanism of mesothelial cell recruitment, the role of immune crosstalk in deciding between physiological repair and pathological scarring, and developing transplantation systems for genetically engineered mesothelial cells.
-
-### Foreign Body Reaction and Implant Lifetime
-
-Surgical injury rarely occurs in isolation — it is usually accompanied by foreign material (sutures, meshes, implants). The combination of tissue damage and biomaterial fundamentally changes how repair proceeds. In collaboration with bioengineers, we study how implant surface properties shape the local immune response, with the aim of designing materials that integrate rather than scar.
-
-<figure>
-<video autoplay muted loop playsinline preload="metadata"
-       style="width:100%; height:auto; display:block;">
-  <source src="/assets/videos/Neutrophils.mp4" type="video/mp4">
-</video>
-<figcaption>Neutrophils swarming to a sterile injury — how does this play out in response to foreign materials?</figcaption>
-</figure>
-
-### Translational Studies
-
-We connect mouse mechanism to human biology through prospective patient cohorts (in collaboration with surgical partners at Inselspital Bern) and a bio-banked sample pipeline of fresh and frozen human peritoneal cells. A particular interest is the translational gap between mouse and human peritoneal macrophages — including why GATA6 governs mouse cavity macrophages while H2AFY/macroH2A appears to dominate the human counterpart. This bench-to-bedside work also underpins our spin-off, Medhesion, which develops oligonucleotide-based therapies against post-surgical adhesions.
-
-## Methods
-
-### Intravital Microscopy
-
-The signature method of the lab. We image immune cells and mesothelial dynamics in living mice in real time, including through the intact abdominal wall — a model originally developed in the Kubes lab and now extended in Zürich. Our setup is a Leica Stellaris DIVE multiphoton system with a 12 kHz resonant scanner, hybrid detectors, and full FLIM (fluorescence lifetime imaging) capability, allowing us to read out cellular metabolism and signaling states alongside cellular behavior.
-
-### Quantitative Image Analysis
-
-Beautiful imaging is only the starting point. We complement our microscopy with custom in-house pipelines for next-generation cell segmentation, classification, and tracking, run on ETH's high-performance computing infrastructure. These tools turn 4D intravital movies into reproducible, cell-by-cell quantification — bridging visually striking microscopy with the statistically tractable outcomes that mechanistic conclusions require.
-
-<figure>
-<video autoplay muted loop playsinline preload="metadata"
-       style="width:100%; height:auto; display:block;">
-  <source src="/assets/videos/Quantification.mp4" type="video/mp4">
-</video>
-<figcaption>Automated segmentation and tracking output from our custom analysis pipeline.</figcaption>
-</figure>
-
-### Single-Cell and Spatial Transcriptomics
-
-We use scRNA-seq, regulon inference (pySCENIC), and spatial transcriptomics to map cell states across mouse and human peritoneal tissues, and to identify candidate regulators of mesothelial and macrophage behavior.
-
-### Murine Models of Peritoneal Injury
-
-We use two complementary surgical models we developed and published in detail: the focal peritoneal injury (FPI) model for studying repair, and the peritoneal button (PB) model for adhesion formation. Combined with transgenic, reporter, and lineage-tracing mice — several of which we breed in-house — these allow us to interrogate specific cellular contributions to repair.
-
-### Human Peritoneal Sampling
-
-Through clinical collaborations we have a robust pipeline for fresh human peritoneal fluid and tissue, enabling direct cross-species validation of our murine findings.
-
-## Funding
-
-We are grateful for the support of:
-
-- Swiss National Science Foundation — Starting Grant
-- Swiss National Science Foundation — Project Grant
-- Swiss National Science Foundation — Weave
-- Helmut Horten Foundation
-- Geistlich Stucki Foundation
-- ETH Foundation
+```{=html}
+<div id="lab-collage" class="lab-collage" aria-label="The lab — people and imaging">
+  <a class="tile tile-wide" href="research.html#cavity-macrophage-aggregation">
+    <video autoplay muted loop playsinline preload="metadata"><source src="/assets/videos/Aggregation.mp4" type="video/mp4"></video>
+    <span class="tile-caption"><span class="tc-name">Cavity Macrophage Aggregation</span><span class="tc-role">Research</span></span>
+  </a>
+  <a class="tile" href="people.html#joel-zindel">
+    <img src="/assets/people/joel-zindel.jpg" alt="Joel Zindel">
+    <span class="tile-caption"><span class="tc-name">Joel Zindel</span><span class="tc-role">Group Leader</span></span>
+  </a>
+  <a class="tile" href="people.html#tea-kocijan">
+    <img src="/assets/people/tea-kocijan.jpg" alt="Tea Kocijan">
+    <span class="tile-caption"><span class="tc-name">Tea Kocijan</span><span class="tc-role">Senior Research Associate</span></span>
+  </a>
+  <a class="tile tile-wide" href="research.html#foreign-body-reaction-and-implant-lifetime">
+    <video autoplay muted loop playsinline preload="metadata"><source src="/assets/videos/Neutrophils.mp4" type="video/mp4"></video>
+    <span class="tile-caption"><span class="tc-name">Foreign Body Reaction</span><span class="tc-role">Research</span></span>
+  </a>
+  <a class="tile" href="people.html#franziska-empenberger">
+    <img src="/assets/people/franziska-empenberger.jpg" alt="Franziska Empenberger">
+    <span class="tile-caption"><span class="tc-name">Franziska Empenberger</span><span class="tc-role">Research Technician</span></span>
+  </a>
+  <a class="tile" href="people.html#ivo-meli">
+    <img src="/assets/people/ivo-meli.jpg" alt="Ivo Meli">
+    <span class="tile-caption"><span class="tc-name">Ivo Meli</span><span class="tc-role">Research Technician</span></span>
+  </a>
+  <a class="tile" href="people.html#marielle-airoldi">
+    <img src="/assets/people/marielle-airoldi.jpg" alt="Marielle Airoldi">
+    <span class="tile-caption"><span class="tc-name">Marielle Airoldi</span><span class="tc-role">PhD Student</span></span>
+  </a>
+  <a class="tile tile-wide" href="research.html#quantitative-image-analysis">
+    <video autoplay muted loop playsinline preload="metadata"><source src="/assets/videos/CellSize.mp4" type="video/mp4"></video>
+    <span class="tile-caption"><span class="tc-name">Quantitative Image Analysis</span><span class="tc-role">Research</span></span>
+  </a>
+  <a class="tile" href="people.html#john-li-flores-alvarez">
+    <img src="/assets/people/john-li-flores-alvarez.jpg" alt="John Li Flores Alvarez">
+    <span class="tile-caption"><span class="tc-name">John Li Flores Alvarez</span><span class="tc-role">PhD Student</span></span>
+  </a>
+  <a class="tile" href="people.html#alicia-halbach">
+    <img src="/assets/people/alicia-halbach.jpg" alt="Alicia Halbach">
+    <span class="tile-caption"><span class="tc-name">Alicia Halbach</span><span class="tc-role">PhD Student</span></span>
+  </a>
+  <a class="tile" href="people.html#agnes-huber">
+    <img src="/assets/people/agnes-huber.jpg" alt="Agnes Huber">
+    <span class="tile-caption"><span class="tc-name">Agnes Huber</span><span class="tc-role">PhD Student</span></span>
+  </a>
+  <a class="tile tile-wide" href="research.html#quantitative-image-analysis">
+    <video autoplay muted loop playsinline preload="metadata"><source src="/assets/videos/Quantification.mp4" type="video/mp4"></video>
+    <span class="tile-caption"><span class="tc-name">Quantitative Image Analysis</span><span class="tc-role">Research</span></span>
+  </a>
+  <a class="tile" href="people.html#brooke-slade">
+    <img src="/assets/people/brooke-slade.jpg" alt="Brooke Slade">
+    <span class="tile-caption"><span class="tc-name">Brooke Slade</span><span class="tc-role">PhD Student</span></span>
+  </a>
+  <a class="tile" href="people.html#sophia-kühn">
+    <img src="/assets/people/sophia-kuhn.jpg" alt="Sophia Kühn">
+    <span class="tile-caption"><span class="tc-name">Sophia Kühn</span><span class="tc-role">Trainee</span></span>
+  </a>
+</div>
+<script>
+(function () {
+  var grid = document.getElementById('lab-collage');
+  if (!grid) return;
+  var tiles = Array.prototype.slice.call(grid.children);
+  for (var i = tiles.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var tmp = tiles[i]; tiles[i] = tiles[j]; tiles[j] = tmp;
+  }
+  tiles.forEach(function (t) { grid.appendChild(t); });
+})();
+</script>
+```
