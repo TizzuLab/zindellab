@@ -16,5 +16,6 @@ Inst. f. Molecular Health Sciences, HPL F 16.2
 
 [agnes.huber@biol.ethz.ch](mailto:agnes.huber@biol.ethz.ch)
 :::
-my project
+
 :::
+I work on the transcription factor GATA6, want to do a semester project on gene editing in bone marrow?
