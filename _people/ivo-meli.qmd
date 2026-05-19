@@ -9,7 +9,7 @@ and uncomment the image line below.
 ![](assets/people/ivo-meli.jpg){.person-photo}
 
 ### Ivo Meli
-<p class="role">Research Technician</p>
+<p class="role">Research Associate</p>
 
 ::: {.contact}
 Inst. f. Molecular Health Sciences, HPL F 16.2
