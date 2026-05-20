@@ -1,0 +1,33 @@
+---
+title: "Gallery"
+page-layout: full
+lightbox:
+  match: auto
+  effect: fade
+  desc-position: bottom
+  loop: true
+---
+
+A curated selection of images from the lab — intravital microscopy, fieldwork, and life around the bench. Click any image to enlarge.
+
+::: {layout-ncol=3 .gallery}
+![](assets/gallery/01.jpg){group="lab"}
+
+![](assets/gallery/02.jpg){group="lab"}
+
+![](assets/gallery/03.jpg){group="lab"}
+
+![](assets/gallery/04.jpg){group="lab"}
+
+![](assets/gallery/05.jpg){group="lab"}
+
+![](assets/gallery/06.jpg){group="lab"}
+
+![](assets/gallery/07.jpg){group="lab"}
+
+![](assets/gallery/08.jpg){group="lab"}
+
+![](assets/gallery/09.jpg){group="lab"}
+
+![](assets/gallery/10.jpg){group="lab"}
+:::

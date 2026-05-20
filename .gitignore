@@ -37,3 +37,7 @@ assets/videos/moving_cells.mp4
 # Local backups of pre-re-encode video sources (safety net before lossy re-encodes).
 # Kept locally so we can recover if a re-encode goes wrong; not for the repo.
 assets/videos/.orig/
+
+# Gallery originals: drop full-res photos here, run scripts/process_gallery.py,
+# committed JPGs (01.jpg, 02.jpg, ...) go into assets/gallery/ at ~1600px.
+assets/gallery/_inbox/
