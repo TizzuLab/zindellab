@@ -26,8 +26,4 @@ A curated selection of images from the lab — intravital microscopy, fieldwork,
 ![](assets/gallery/07.jpg){group="lab"}
 
 ![](assets/gallery/08.jpg){group="lab"}
-
-![](assets/gallery/09.jpg){group="lab"}
-
-![](assets/gallery/10.jpg){group="lab"}
 :::

@@ -297,6 +297,38 @@ img {
   border-radius: 4px;
 }
 
+/* ETH D-BIOL departmental mark — two copies injected via include-after-body
+   in _quarto.yml. One lives inside .navbar-brand-container (shown only on
+   mobile, so it sits glued to the lab logo). The other lives outside the
+   .navbar-collapse and is pushed to the far right (shown only on desktop). */
+.navbar .dbiol-mark {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  flex: 0 0 auto;
+}
+
+.navbar .dbiol-mark img {
+  height: 15px;
+  width: auto;
+  display: block;
+}
+
+.navbar .dbiol-mark:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .navbar .dbiol-mark-mobile  { display: none; }
+  .navbar .dbiol-mark-desktop { order: 999; margin-left: 1rem; }
+}
+
+@media (max-width: 991.98px) {
+  .navbar .dbiol-mark-desktop { display: none; }
+  .navbar .dbiol-mark-mobile  { margin-left: 0.6rem; }
+}
+
 /* Quarto hardcodes $link-color for hover on several interactive elements;
    force them to use $link-hover-color so terracotta is visible everywhere. */
 .sidebar nav[role=doc-toc] ul > li > a:hover,

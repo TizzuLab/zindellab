@@ -4,6 +4,9 @@ project:
   resources:
     - CNAME
     - assets/fonts/*.woff2
+    # D-BIOL nav badge — referenced only from a dynamic <img> injected by JS
+    # (include-after-body), so Quarto's static analysis can't see it on its own.
+    - assets/d-biol-nav.png
 
 website:
   title: "Zindel Lab"
@@ -50,3 +53,29 @@ format:
     grid:
       body-width: 900px
     link-external-newwindow: true
+    include-after-body:
+      text: |
+        <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const nav = document.querySelector('.navbar .navbar-container');
+          if (!nav) return;
+          const make = (cls) => {
+            const a = document.createElement('a');
+            a.href = 'https://biol.ethz.ch';
+            a.className = 'dbiol-mark ' + cls;
+            a.target = '_blank';
+            a.rel = 'noopener';
+            a.setAttribute('aria-label', 'D-BIOL — ETH Department of Biology');
+            a.innerHTML = '<img src="/assets/d-biol-nav.png" alt="D-BIOL">';
+            return a;
+          };
+          // Mobile copy: lives inside the brand container so it sits right
+          // next to the lab logo regardless of where the brand ends up.
+          const brand = nav.querySelector('.navbar-brand-container');
+          if (brand) brand.appendChild(make('dbiol-mark-mobile'));
+          // Desktop copy: flex sibling of brand/toggler/collapse, pushed
+          // to the far right by `order: 999` in CSS.
+          const toggler = nav.querySelector('.navbar-toggler');
+          (toggler ? (el) => nav.insertBefore(el, toggler) : (el) => nav.appendChild(el))(make('dbiol-mark-desktop'));
+        });
+        </script>

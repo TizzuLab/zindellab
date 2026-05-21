@@ -84,6 +84,12 @@ We use two complementary surgical models we developed and published in detail: t
 
 Through clinical collaborations we have a robust pipeline for fresh human peritoneal fluid and tissue, enabling direct cross-species validation of our murine findings.
 
+### Research in Animals
+
+Our research relies in part on animal experimentation, and we approach this responsibility with compassion and rigor. Every experiment we conduct is approved by the cantonal veterinary office after careful review by an ethics commission. This ensures that our work adheres to the 3R principles: wherever we can, we **replace** animal experiments, **reduce** the number of animals used, and **refine** our experimental approach — so that animals are involved only when no alternative can answer the scientific question, in the smallest numbers necessary, and under conditions that minimise distress.
+
+We are convinced that responsible animal research remains essential. Much of what we understand about tissue repair, immunity, and disease — and many of the therapies that have followed — would not exist without it. For this reason, Joel Zindel is a member of [*Verein Forschung für Leben*](https://www.forschung-leben.ch/), a Swiss association of researchers — including colleagues from ETH Zürich — who advocate for the importance of biomedical research and for open, honest dialogue with the public.
+
 ## Funding
 
 We are grateful for the support of:
