@@ -1,5 +1,6 @@
 ---
 title: "People"
+description: "Members of the Zindel Lab at ETH Zürich — PI, postdocs, PhD students, research associates, and trainees."
 toc: false
 ---
 

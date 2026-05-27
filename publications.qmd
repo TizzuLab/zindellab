@@ -1,5 +1,6 @@
 ---
 title: "Publications"
+description: "Publications by Joel Zindel and the Zindel Lab — link to the full Google Scholar profile."
 toc: false
 ---
 

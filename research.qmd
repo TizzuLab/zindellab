@@ -1,6 +1,7 @@
 ---
 title: "Research"
 pagetitle: "Zindel Lab — Imaging at ETH Zürich"
+description: "Research themes and methods of the Zindel Lab: intravital microscopy, peritoneal macrophages, post-surgical adhesions, and foreign-body responses."
 toc: true
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Job Opportunities"
+description: "Open positions in the Zindel Lab at ETH Zürich — PhD, postdoc, semester project, and Master's thesis opportunities."
 toc: true
 ---
 

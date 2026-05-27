@@ -1,5 +1,6 @@
 ---
 pagetitle: "Zindel Lab — ETH Zürich"
+description: "The Zindel Lab at ETH Zürich studies tissue repair, fibrosis, and foreign-body responses through intravital imaging in living mice."
 toc: false
 ---
 

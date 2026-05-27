@@ -1,5 +1,6 @@
 ---
 title: "Contact"
+description: "Contact the Zindel Lab at ETH Zürich — address, phone, and links."
 toc: false
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Gallery"
+description: "Photographs from the Zindel Lab at ETH Zürich — microscopy, lab life, and team."
 page-layout: full
 lightbox:
   match: auto

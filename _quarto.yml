@@ -10,9 +10,15 @@ project:
 
 website:
   title: "Zindel Lab"
-  description: "Imaging lab at ETH Zürich"
+  description: "Intravital imaging of tissue repair, fibrosis, and post-surgical adhesions — Zindel Lab, ETH Zürich (D-BIOL)."
   site-url: https://zindellab.ch
   favicon: assets/favicon.png
+  open-graph:
+    image: /assets/og-card.png
+    locale: en_US
+  twitter-card:
+    image: /assets/og-card.png
+    card-style: summary_large_image
   navbar:
     background: "#000"
     pinned: true
