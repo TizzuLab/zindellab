@@ -52,7 +52,7 @@ Surgical injury rarely occurs in isolation — it is usually accompanied by fore
 
 ### Translational Studies
 
-We connect mouse mechanism to human biology through prospective patient cohorts (in collaboration with surgical partners at Inselspital Bern) and a bio-banked sample pipeline of fresh and frozen human peritoneal cells. A particular interest is the translational gap between mouse and human peritoneal macrophages — including why GATA6 governs mouse cavity macrophages while H2AFY/macroH2A appears to dominate the human counterpart. This bench-to-bedside work also underpins our spin-off, Medhesion, which develops oligonucleotide-based therapies against post-surgical adhesions.
+We connect mouse mechanism to human biology through prospective patient cohorts (in collaboration with surgical partners at Inselspital Bern) and a bio-banked sample pipeline of fresh and frozen human peritoneal cells. A particular interest is the translational gap between mouse and human peritoneal macrophages. We have been involved in start-ups and also consult for established pharmaceutical companies.
 
 ## Methods
 
