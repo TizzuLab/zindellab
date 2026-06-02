@@ -7,6 +7,9 @@ project:
     # D-BIOL nav badge — referenced only from a dynamic <img> injected by JS
     # (include-after-body), so Quarto's static analysis can't see it on its own.
     - assets/d-biol-nav.png
+    # Crawler/LLM discoverability files served from the web root.
+    - robots.txt          # welcomes search + AI bots, points to sitemap.xml
+    - llms.txt            # LLM-facing plain-text summary of the lab
 
 website:
   title: "Zindel Lab"
@@ -59,6 +62,9 @@ format:
     grid:
       body-width: 900px
     link-external-newwindow: true
+    # Schema.org JSON-LD entity metadata — see file header for rationale.
+    include-in-header:
+      - _head-structured-data.html
     include-after-body:
       text: |
         <script>

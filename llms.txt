@@ -1,0 +1,43 @@
+# Zindel Lab
+
+> The Zindel Lab at ETH Zürich (Department of Biology, D-BIOL; Institute of Molecular Health Sciences) studies tissue repair, fibrosis, and foreign-body responses at the interface of immunity and the body cavities. The lab is led by Prof. Dr. Joel Zindel, a surgeon-scientist, and is known for intravital microscopy of immune and mesothelial cell dynamics in living mice. Website: https://zindellab.ch
+
+## About
+
+- **Name:** Zindel Lab (Zindel Laboratory)
+- **Principal investigator:** Prof. Dr. Joel Zindel — trained as a surgeon (MD, University of Bern), founded the lab in Bern in 2023, moved to ETH Zürich in August 2025.
+- **Institution:** ETH Zürich, Institute of Molecular Health Sciences, Department of Biology (D-BIOL).
+- **Location:** Otto-Stern-Weg 7, HPL F 32.2, 8093 Zürich, Switzerland.
+- **Mission:** Improve patient outcomes after surgery by uncovering the cellular and molecular mechanisms of tissue repair, regeneration, and foreign-body biology.
+
+## Research themes
+
+- **Cavity macrophage aggregation:** GATA6+ peritoneal macrophages and the macrophage disappearance reaction; scavenger receptors MARCO and MSR1; calcium dependence; conservation to sea urchin coelomocytes.
+- **Mesothelial to mesenchymal transition (MMT):** how mesothelial cells reprogram into scar-forming myofibroblasts after surgery; role of the peritoneal microenvironment and EGFR signaling.
+- **Foreign body reaction and implant lifetime:** how implant surface properties shape the local immune response, with bioengineering collaborators.
+- **Translational studies:** prospective patient cohorts (with Inselspital Bern) and a human peritoneal cell biobank; the mouse-to-human translational gap.
+
+## Methods
+
+- Intravital (multiphoton) microscopy — Leica Stellaris DIVE, 12 kHz resonant scanner, FLIM.
+- Quantitative 4D image analysis — custom cell segmentation, classification, and tracking on ETH HPC.
+- Single-cell and spatial transcriptomics (scRNA-seq, pySCENIC regulon inference).
+- Murine models: focal peritoneal injury (FPI) and peritoneal button (PB) adhesion models.
+- Human peritoneal fluid and tissue sampling via clinical collaborations.
+
+## Pages
+
+- [Home](https://zindellab.ch/): mission and overview.
+- [Research](https://zindellab.ch/research.html): themes, methods, funding.
+- [People](https://zindellab.ch/people.html): lab members.
+- [Publications](https://zindellab.ch/publications.html): Google Scholar profile (https://scholar.google.com/citations?user=BkPr9XUAAAAJ).
+- [Job Opportunities](https://zindellab.ch/jobs.html): PhD, postdoc, semester, and master/summer positions.
+- [Contact](https://zindellab.ch/contact.html): address, phone, LinkedIn.
+
+## Contact
+
+- Email: joel.zindel@biol.ethz.ch
+- Phone: +41 44 633 37 78
+- ORCID: https://orcid.org/0000-0003-3685-9338
+- ETH faculty page: https://mhs.biol.ethz.ch/research/zindel.html
+- LinkedIn: https://www.linkedin.com/in/joel-zindel-a6477429b/

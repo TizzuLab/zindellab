@@ -1,0 +1,120 @@
+<!--
+  Schema.org JSON-LD structured data, injected into <head> of every page via
+  `format.html.include-in-header` in _quarto.yml.
+
+  This is the LEGITIMATE, white-hat version of "text for machines": it is
+  machine-readable metadata in a location designed for it (the <head>), NOT
+  hidden on-page text / cloaking. Search crawlers (Googlebot) and AI crawlers
+  (GPTBot, ClaudeBot, PerplexityBot, …) read this to identify the lab as an
+  entity — who leads it, where it sits, what it researches, and which external
+  profiles corroborate it (`sameAs`). Keep it in sync with the visible site.
+
+  Edit checklist when facts change:
+    - roster: this file only names the PI; the team lives on people.qmd
+    - sameAs: add ORCID here once Joel has a public iD (also enables Publications)
+    - knowsAbout: mirror the research themes/methods on research.qmd
+-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://zindellab.ch/#website",
+      "url": "https://zindellab.ch",
+      "name": "Zindel Lab",
+      "description": "Intravital imaging of tissue repair, fibrosis, and post-surgical adhesions — Zindel Lab, ETH Zürich (D-BIOL).",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://zindellab.ch/#lab" }
+    },
+    {
+      "@type": ["Organization", "ResearchOrganization"],
+      "@id": "https://zindellab.ch/#lab",
+      "name": "Zindel Lab",
+      "alternateName": "Zindel Laboratory",
+      "url": "https://zindellab.ch",
+      "logo": "https://zindellab.ch/assets/logo.webp",
+      "description": "The Zindel Lab at ETH Zürich studies tissue repair, fibrosis, and foreign-body responses at the interface of immunity and the body cavities, using intravital microscopy in living mice.",
+      "foundingDate": "2023",
+      "parentOrganization": {
+        "@type": "CollegeOrUniversity",
+        "name": "ETH Zürich",
+        "alternateName": "Swiss Federal Institute of Technology Zurich",
+        "url": "https://ethz.ch",
+        "department": {
+          "@type": "Organization",
+          "name": "Department of Biology (D-BIOL)",
+          "url": "https://biol.ethz.ch"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Otto-Stern-Weg 7, HPL F 32.2",
+        "addressLocality": "Zürich",
+        "postalCode": "8093",
+        "addressCountry": "CH"
+      },
+      "telephone": "+41 44 633 37 78",
+      "email": "joel.zindel@biol.ethz.ch",
+      "founder": { "@id": "https://zindellab.ch/#joel-zindel" },
+      "employee": { "@id": "https://zindellab.ch/#joel-zindel" },
+      "sameAs": [
+        "https://github.com/TizzuLab/zindellab",
+        "https://mhs.biol.ethz.ch/research/zindel.html",
+        "https://biol.ethz.ch"
+      ],
+      "knowsAbout": [
+        "Intravital microscopy",
+        "Multiphoton microscopy",
+        "Tissue repair and regeneration",
+        "Fibrosis",
+        "Post-surgical adhesions",
+        "Peritoneal macrophages",
+        "GATA6+ cavity macrophages",
+        "Foreign body response and implant biology",
+        "Mesothelial to mesenchymal transition",
+        "Innate immunity and wound healing",
+        "Single-cell and spatial transcriptomics",
+        "Regenerative medicine"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zindellab.ch/#joel-zindel",
+      "name": "Joel Zindel",
+      "givenName": "Joel",
+      "familyName": "Zindel",
+      "honorificPrefix": "Prof. Dr.",
+      "jobTitle": "Group Leader, Professor",
+      "url": "https://zindellab.ch/people.html#joel-zindel",
+      "image": "https://zindellab.ch/assets/people/joel-zindel.jpg",
+      "email": "joel.zindel@biol.ethz.ch",
+      "telephone": "+41 44 633 37 78",
+      "worksFor": { "@id": "https://zindellab.ch/#lab" },
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "ETH Zürich",
+        "url": "https://ethz.ch"
+      },
+      "knowsAbout": [
+        "Tissue repair",
+        "Intravital imaging",
+        "Peritoneal immunity",
+        "Surgical adhesions",
+        "Macrophage biology"
+      ],
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0003-3685-9338"
+      },
+      "sameAs": [
+        "https://orcid.org/0000-0003-3685-9338",
+        "https://scholar.google.com/citations?user=BkPr9XUAAAAJ",
+        "https://www.linkedin.com/in/joel-zindel-a6477429b/",
+        "https://mhs.biol.ethz.ch/research/zindel.html"
+      ]
+    }
+  ]
+}
+</script>
