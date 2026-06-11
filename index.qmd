@@ -5,13 +5,24 @@ toc: false
 ---
 
 ::: {.lab-hero}
+::: {.lab-hero-text}
 ![Zindel Lab](assets/logo.webp){.lab-hero-logo}
 
 [ETH Zürich · Institute of Molecular Health Sciences · D-BIOL]{.hero-place}
 
-At the Zindel Lab, our mission is to improve patient outcomes after surgery by advancing the understanding of tissue repair, regeneration, and foreign body biology. Through innovative and rigorous biomedical research, we aim to uncover the cellular and molecular mechanisms that drive healing processes and identify novel strategies to enhance recovery, prevent complications, and improve implant function.
+We study how the body repairs itself after injury and surgery — and why repair so often leaves a scar. By uncovering the cellular and molecular mechanisms of healing, we aim to improve recovery, prevent complications, and help implants integrate rather than fail.
 
-Beyond advancing science, we are committed to creating value for society — particularly in Switzerland — by translating discoveries into innovations, collaborating with industry partners, fostering entrepreneurial opportunities, and educating the next generation of scientists and clinicians who will shape the future of regenerative medicine and surgical care.
+Beyond the bench, we translate discoveries into innovations — collaborating with industry, supporting entrepreneurship, and training the next generation of scientists and clinicians in regenerative medicine and surgical care.
+:::
+
+```{=html}
+<figure class="lab-hero-media">
+  <video autoplay muted loop playsinline preload="metadata">
+    <source src="/assets/videos/Aggregation.mp4" type="video/mp4">
+  </video>
+  <figcaption>Peritoneal macrophages swarming a wound, imaged in a living mouse</figcaption>
+</figure>
+```
 :::
 
 ```{=html}

@@ -25,7 +25,7 @@ We study what happens at the interface of immunity, tissue repair, and the body 
 
 ### Cavity Macrophage Aggregation
 
-GATA6⁺ macrophages float in the peritoneal fluid and, within minutes of injury, vanish from suspension and pile onto the wound — the so-called macrophage disappearance reaction. We showed this aggregation is driven by scavenger receptors MARCO and MSR1, depends on calcium, and is conserved all the way to sea urchin coelomocytes. We now ask which ligand engages the scavenger receptors, why aggregation is calcium-dependent, why these cells don't aggregate spontaneously, and how their post-injury fate shapes repair versus scarring.
+**Within minutes of injury, free-floating GATA6⁺ macrophages vanish from the peritoneal fluid and pile onto the wound** — the macrophage disappearance reaction. We showed this aggregation is driven by the scavenger receptors MARCO and MSR1, depends on calcium, and is conserved all the way to sea urchin coelomocytes. We now ask which ligand engages these receptors, why the cells don't aggregate spontaneously, and how their post-injury fate shapes repair versus scarring.
 
 <figure>
 <video autoplay muted loop playsinline preload="metadata"
@@ -37,11 +37,11 @@ GATA6⁺ macrophages float in the peritoneal fluid and, within minutes of injury
 
 ### Mesothelial to Mesenchymal Transition
 
-After surgery, healthy mesothelial cells lose their epithelial identity, turn migratory, and reprogram into myofibroblasts that lay down scar. We've mapped some of this transition and shown it depends on cues from the peritoneal microenvironment, including microbial contamination and EGFR signaling. We are now dissecting the molecular mechanism of mesothelial cell recruitment, the role of immune crosstalk in deciding between physiological repair and pathological scarring, and developing transplantation systems for genetically engineered mesothelial cells.
+**After surgery, healthy mesothelial cells shed their epithelial identity, turn migratory, and reprogram into the myofibroblasts that lay down scar.** We've mapped part of this transition and shown it depends on cues from the peritoneal microenvironment, including microbial contamination and EGFR signaling. We are now dissecting how mesothelial cells are recruited, how immune crosstalk tips the balance between physiological repair and pathological scarring, and building transplantation systems for genetically engineered mesothelial cells.
 
 ### Foreign Body Reaction and Implant Lifetime
 
-Surgical injury rarely occurs in isolation — it is usually accompanied by foreign material (sutures, meshes, implants). The combination of tissue damage and biomaterial fundamentally changes how repair proceeds. In collaboration with bioengineers, we study how implant surface properties shape the local immune response, with the aim of designing materials that integrate rather than scar.
+**Surgical injury rarely comes alone — it usually arrives with foreign material: sutures, meshes, implants.** The combination of tissue damage and biomaterial fundamentally changes how repair proceeds. Working with bioengineers, we study how implant surface properties shape the local immune response, aiming to design materials that integrate rather than scar.
 
 <figure>
 <video autoplay muted loop playsinline preload="metadata"
@@ -53,17 +53,17 @@ Surgical injury rarely occurs in isolation — it is usually accompanied by fore
 
 ### Translational Studies
 
-We connect mouse mechanism to human biology through prospective patient cohorts (in collaboration with surgical partners at Inselspital Bern) and a bio-banked sample pipeline of fresh and frozen human peritoneal cells. A particular interest is the translational gap between mouse and human peritoneal macrophages. We have been involved in start-ups and also consult for established pharmaceutical companies.
+**We connect mouse mechanism to human biology** through prospective patient cohorts (with surgical partners at Inselspital Bern) and a bio-banked pipeline of fresh and frozen human peritoneal cells. A particular interest is the translational gap between mouse and human peritoneal macrophages. We have been involved in start-ups and consult for established pharmaceutical companies.
 
 ## Methods
 
 ### Intravital Microscopy
 
-The signature method of the lab. We image immune cells and mesothelial dynamics in living mice in real time, including through the intact abdominal wall — a model originally developed in the Kubes lab and now extended in Zürich. Our setup is a Leica Stellaris DIVE multiphoton system with a 12 kHz resonant scanner, hybrid detectors, and full FLIM (fluorescence lifetime imaging) capability, allowing us to read out cellular metabolism and signaling states alongside cellular behavior.
+**The signature method of the lab.** We image immune cells and mesothelial dynamics in living mice in real time, including through the intact abdominal wall — a model originally developed in the Kubes lab and now extended in Zürich. Our setup is a Leica Stellaris DIVE multiphoton system with a 12 kHz resonant scanner, hybrid detectors, and full FLIM (fluorescence lifetime imaging), letting us read out cellular metabolism and signaling states alongside behavior.
 
 ### Quantitative Image Analysis
 
-Beautiful imaging is only the starting point. We complement our microscopy with custom in-house pipelines for next-generation cell segmentation, classification, and tracking, run on ETH's high-performance computing infrastructure. These tools turn 4D intravital movies into reproducible, cell-by-cell quantification — bridging visually striking microscopy with the statistically tractable outcomes that mechanistic conclusions require.
+**Beautiful imaging is only the starting point.** We complement our microscopy with custom in-house pipelines for next-generation cell segmentation, classification, and tracking, run on ETH's high-performance computing infrastructure. These tools turn 4D intravital movies into reproducible, cell-by-cell quantification — bridging visually striking microscopy with the statistically tractable outcomes that mechanistic conclusions require.
 
 <figure>
 <video autoplay muted loop playsinline preload="metadata"
@@ -75,15 +75,15 @@ Beautiful imaging is only the starting point. We complement our microscopy with 
 
 ### Single-Cell and Spatial Transcriptomics
 
-We use scRNA-seq, regulon inference (pySCENIC), and spatial transcriptomics to map cell states across mouse and human peritoneal tissues, and to identify candidate regulators of mesothelial and macrophage behavior.
+**We map cell states across mouse and human peritoneal tissues** using scRNA-seq, regulon inference (pySCENIC), and spatial transcriptomics — identifying candidate regulators of mesothelial and macrophage behavior.
 
 ### Murine Models of Peritoneal Injury
 
-We use two complementary surgical models we developed and published in detail: the focal peritoneal injury (FPI) model for studying repair, and the peritoneal button (PB) model for adhesion formation. Combined with transgenic, reporter, and lineage-tracing mice — several of which we breed in-house — these allow us to interrogate specific cellular contributions to repair.
+**We developed and published two complementary surgical models:** the focal peritoneal injury (FPI) model for studying repair, and the peritoneal button (PB) model for adhesion formation. Combined with transgenic, reporter, and lineage-tracing mice — several of which we breed in-house — these let us interrogate specific cellular contributions to repair.
 
 ### Human Peritoneal Sampling
 
-Through clinical collaborations we have a robust pipeline for fresh human peritoneal fluid and tissue, enabling direct cross-species validation of our murine findings.
+**Through clinical collaborations we run a robust pipeline for fresh human peritoneal fluid and tissue,** enabling direct cross-species validation of our murine findings.
 
 ### Research in Animals
 

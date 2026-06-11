@@ -95,6 +95,37 @@ a:hover {
 
 .lab-hero {
   padding: 4rem 0 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3rem;
+}
+
+.lab-hero-text {
+  flex: 1 1 420px;
+  min-width: 0;
+}
+
+/* Signature intravital clip beside the mission — visual leads with the text. */
+.lab-hero-media {
+  flex: 1 1 360px;
+  margin: 0;
+  min-width: 0;
+}
+
+.lab-hero-media video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid #1f1f1f;
+}
+
+.lab-hero-media figcaption {
+  color: #8a8a8a;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  margin-top: 0.6rem;
 }
 
 .lab-hero h1 {
