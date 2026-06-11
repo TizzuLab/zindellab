@@ -1,6 +1,6 @@
 ---
 pagetitle: "Zindel Lab — ETH Zürich"
-description: "The Zindel Lab at ETH Zürich studies tissue repair, fibrosis, and foreign-body responses through intravital imaging in living mice."
+description: "The Zindel Lab at ETH Zürich studies tissue repair, fibrosis, and foreign-body responses through intravital imaging of immune and cellular dynamics."
 toc: false
 ---
 
@@ -20,7 +20,7 @@ Beyond the bench, we translate discoveries into innovations — collaborating wi
   <video autoplay muted loop playsinline preload="metadata">
     <source src="/assets/videos/Aggregation.mp4" type="video/mp4">
   </video>
-  <figcaption>Peritoneal macrophages swarming a wound, imaged in a living mouse</figcaption>
+  <figcaption>Peritoneal macrophages swarming a wound, captured by intravital microscopy</figcaption>
 </figure>
 ```
 :::

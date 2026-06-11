@@ -53,13 +53,13 @@ We study what happens at the interface of immunity, tissue repair, and the body 
 
 ### Translational Studies
 
-**We connect mouse mechanism to human biology** through prospective patient cohorts (with surgical partners at Inselspital Bern) and a bio-banked pipeline of fresh and frozen human peritoneal cells. A particular interest is the translational gap between mouse and human peritoneal macrophages. We have been involved in start-ups and consult for established pharmaceutical companies.
+**We connect mechanistic discovery to human biology** through prospective patient cohorts (with surgical partners at Inselspital Bern) and a bio-banked pipeline of fresh and frozen human peritoneal cells. A particular interest is the translational gap between preclinical and human peritoneal macrophages. We have been involved in start-ups and consult for established pharmaceutical companies.
 
 ## Methods
 
 ### Intravital Microscopy
 
-**The signature method of the lab.** We image immune cells and mesothelial dynamics in living mice in real time, including through the intact abdominal wall — a model originally developed in the Kubes lab and now extended in Zürich. Our setup is a Leica Stellaris DIVE multiphoton system with a 12 kHz resonant scanner, hybrid detectors, and full FLIM (fluorescence lifetime imaging), letting us read out cellular metabolism and signaling states alongside behavior.
+**The signature method of the lab.** We image immune cells and mesothelial dynamics in real time, including through the intact abdominal wall — an approach originally developed in the Kubes lab and now extended in Zürich. Our setup is a Leica Stellaris DIVE multiphoton system with a 12 kHz resonant scanner, hybrid detectors, and full FLIM (fluorescence lifetime imaging), letting us read out cellular metabolism and signaling states alongside behavior.
 
 ### Quantitative Image Analysis
 
@@ -75,15 +75,15 @@ We study what happens at the interface of immunity, tissue repair, and the body 
 
 ### Single-Cell and Spatial Transcriptomics
 
-**We map cell states across mouse and human peritoneal tissues** using scRNA-seq, regulon inference (pySCENIC), and spatial transcriptomics — identifying candidate regulators of mesothelial and macrophage behavior.
+**We map cell states across preclinical and human peritoneal tissues** using scRNA-seq, regulon inference (pySCENIC), and spatial transcriptomics — identifying candidate regulators of mesothelial and macrophage behavior.
 
-### Murine Models of Peritoneal Injury
+### Models of Peritoneal Injury and Repair
 
-**We developed and published two complementary surgical models:** the focal peritoneal injury (FPI) model for studying repair, and the peritoneal button (PB) model for adhesion formation. Combined with transgenic, reporter, and lineage-tracing mice — several of which we breed in-house — these let us interrogate specific cellular contributions to repair.
+**We developed and published two complementary in vivo models of peritoneal repair:** the focal peritoneal injury (FPI) model, which follows how a wound resolves, and the peritoneal button (PB) model, which captures how adhesions form. Combined with transgenic, reporter, and lineage-tracing approaches, they let us interrogate the specific cellular contributions to healing versus scarring.
 
 ### Human Peritoneal Sampling
 
-**Through clinical collaborations we run a robust pipeline for fresh human peritoneal fluid and tissue,** enabling direct cross-species validation of our murine findings.
+**Through clinical collaborations we run a robust pipeline for fresh human peritoneal fluid and tissue,** enabling direct cross-species validation of our preclinical findings.
 
 ### Research in Animals
 
