@@ -1,0 +1,16 @@
+<!--
+  Cloudflare Web Analytics beacon, injected into <head> of every page via
+  `format.html.include-in-header` in _quarto.yml (alongside the JSON-LD).
+
+  Privacy-first: cookieless, no PII, no cross-site tracking — so it needs NO
+  cookie-consent banner under EU/Swiss (FADP) law. The `token` is NOT a secret:
+  it identifies the site in the Cloudflare dashboard and is public in page
+  source by design. Safe to commit.
+
+  Dashboard: https://dash.cloudflare.com → Analytics & Logs → Web Analytics.
+  Note: the beacon only fires on real browser loads, so bots/crawlers are not
+  counted here (that's the point — it measures real visitors). Crawler/LLM-bot
+  hits aren't visible to client-side analytics on a static GitHub Pages site.
+-->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+  data-cf-beacon='{"token": "f69590b00e424062ba8d41d3dcbab2f1"}'></script>
