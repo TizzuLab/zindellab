@@ -1,6 +1,6 @@
 ---
 title: "People"
-description: "Members of the Zindel Lab at ETH Zürich — PI, postdocs, PhD students, research associates, and trainees."
+description: "Members of the Zindel Lab at ETH Zürich — PI, PhD students, research associates, technicians, and alumni."
 toc: false
 ---
 
@@ -60,12 +60,10 @@ The leading underscore means Quarto won't render the partials as standalone page
 
 :::
 
-## Trainee
+## Alumni
 
 ::: {.people-grid}
 
 {{< include _people/sophia-kuhn.qmd >}}
 
 :::
-
-<!-- Alumni section will go here when applicable. -->
