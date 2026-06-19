@@ -43,9 +43,9 @@ Beyond the bench, we translate discoveries into innovations — collaborating wi
     <video autoplay muted loop playsinline preload="metadata"><source src="/assets/videos/Neutrophils.mp4" type="video/mp4"></video>
     <span class="tile-caption"><span class="tc-name">Foreign Body Reaction</span><span class="tc-role">Research</span></span>
   </a>
-  <a class="tile" href="people.html#franziska-empenberger">
-    <img src="/assets/people/franziska-empenberger.jpg" alt="Franziska Empenberger">
-    <span class="tile-caption"><span class="tc-name">Franziska Empenberger</span><span class="tc-role">Research Technician</span></span>
+  <a class="tile" href="people.html#franziska-ampenberger">
+    <img src="/assets/people/franziska-ampenberger.jpg" alt="Franziska Ampenberger">
+    <span class="tile-caption"><span class="tc-name">Franziska Ampenberger</span><span class="tc-role">Research Technician</span></span>
   </a>
   <a class="tile" href="people.html#ivo-meli">
     <img src="/assets/people/ivo-meli.jpg" alt="Ivo Meli">

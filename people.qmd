@@ -38,7 +38,7 @@ The leading underscore means Quarto won't render the partials as standalone page
 
 ::: {.people-grid}
 
-{{< include _people/franziska-empenberger.qmd >}}
+{{< include _people/franziska-ampenberger.qmd >}}
 
 {{< include _people/ivo-meli.qmd >}}
 

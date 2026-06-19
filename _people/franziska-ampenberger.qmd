@@ -1,20 +1,20 @@
 <!--
 EDIT THIS FILE: your name, role, room, email, phone, and bio.
-Add a photo: save a square JPG (~600×600 px) as assets/people/franziska-empenberger.jpg
+Add a photo: save a square JPG (~600×600 px) as assets/people/franziska-ampenberger.jpg
 and uncomment the image line below.
 -->
 
 ::: {.person-card}
 
-![](assets/people/franziska-empenberger.jpg){.person-photo}
+![](assets/people/franziska-ampenberger.jpg){.person-photo}
 
-### Franziska Empenberger
+### Franziska Ampenberger
 <p class="role">Research Technician</p>
 
 ::: {.contact}
 Inst. f. Molecular Health Sciences, HPL C 31.2
 
-[franziska.empenberger@epic.ethz.ch](mailto:franziska.empenberger@epic.ethz.ch)
+[franziska.ampenberger@epic.ethz.ch](mailto:franziska.ampenberger@epic.ethz.ch)
 
 +41 44 633 64 98
 :::
