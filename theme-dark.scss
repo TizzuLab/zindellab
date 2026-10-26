@@ -371,3 +371,23 @@ img {
 .quarto-notebook-link:hover {
   color: $link-hover-color !important;
 }
+
+
+/* ---- Teaching page (teaching.qmd) ---------------------------------------- */
+.schedule-weeks img.schedule-week {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 0 1rem;
+  background: #fff;          /* the drawings are designed on white */
+  border: 1px solid $border-color;
+  border-radius: 4px;
+}
+.course-script table {
+  font-size: 0.9rem;
+}
+.course-script blockquote {
+  border-left: 3px solid $link-color;
+  padding-left: 0.8rem;
+  color: #c8c8c8;
+}

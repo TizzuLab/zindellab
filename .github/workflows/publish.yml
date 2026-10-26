@@ -3,7 +3,11 @@ name: Publish site
 on:
   push:
     branches: [main]
+  pull_request:
   workflow_dispatch:
+  schedule:
+    # Nightly, so the Teaching page follows the Blockrophage course repository.
+    - cron: '0 3 * * *'
 
 permissions:
   contents: read
@@ -20,6 +24,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Check out the Blockrophage course repository
+        uses: actions/checkout@v4
+        with:
+          repository: TizzuLab/blockrophage
+          path: _blockrophage
+          fetch-depth: 1
+
+      - name: Sync course material into the site
+        run: python3 scripts/sync_blockrophage.py
+
       - uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render site
@@ -31,6 +45,7 @@ jobs:
 
   deploy:
     needs: build
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
