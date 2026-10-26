@@ -1,0 +1,48 @@
+---
+title: "Teaching"
+pagetitle: "Zindel Lab — Teaching"
+description: "Teaching in the Zindel Lab at ETH Zürich: Blockrophage, a four-week block course on macrophage biology in vitro, in vivo and in silico, built in the open."
+toc: true
+---
+
+Training the next generation of scientists and clinicians is part of what this lab is for. We teach the way we do research: at the bench, with real experiments that can fail, with the published data the field actually argues about, and with the tools scientists use today, including language models, used critically and logged when they are wrong.
+
+Our courses are built in the open. The material lives in public repositories, students work from the same files we edit, and anyone is welcome to read along or send input.
+
+::: {.callout-warning title="Under construction"}
+Blockrophage runs for the first time in spring 2027 and is being built in the open. Interested students are welcome to apply and to give input through the [contact page](contact.qmd) or the [issues on GitHub](https://github.com/TizzuLab/blockrophage/issues). **Please do not use these protocols in the lab yet.** Values are unverified until this notice is gone.
+:::
+
+## Blockrophage
+
+**Macrophage Biology: in vitro, in vivo, in silico.** A four-week block course for D-BIOL, ETH Zürich, Spring Semester 2027. Students build the textbook M1/M2 picture of macrophages with their own hands in a dish, then test it against real tissue macrophages in a published single-cell dataset. It does not survive intact; the field made the same discovery ten years ago.
+
+The repository is the course: the script, the schedule, every protocol, the background reading, the lecture slides and the analysis code, with a single-file companion students can hand to the language model of their choice.
+
+[Open the course on GitHub](https://github.com/TizzuLab/blockrophage){.btn .btn-primary target="_blank"}
+[Download the companion file](https://github.com/TizzuLab/blockrophage/blob/main/companion/blockcourse-companion.md){.btn .btn-outline-light target="_blank"}
+[Protocols](https://github.com/TizzuLab/blockrophage/tree/main/protocols){.btn .btn-outline-light target="_blank"}
+
+{{< include _blockrophage/_site_meta.md >}}
+
+### Lectures
+
+The lectures the course builds on, as given at ETH Zürich. The slide numbers in the course's background reading refer to the first deck.
+
+{{< include _blockrophage/_site_slides.md >}}
+
+### Schedule at a glance
+
+Four weeks, one drawing each. Two groups at the bench in the morning and two at the keyboard, swapped after lunch; the dark cells are fixed, everything else is drawn by each group with its supervisor on the first afternoon.
+
+::: {.schedule-weeks}
+{{< include _blockrophage/_site_schedule.md >}}
+:::
+
+### The course script
+
+What follows is the course script as it stands in the repository, pulled in unchanged. Links lead to the protocols, background and code on GitHub.
+
+::: {.course-script}
+{{< include _blockrophage/_site_readme.md >}}
+:::

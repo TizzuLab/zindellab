@@ -41,3 +41,8 @@ assets/videos/.orig/
 # Gallery originals: drop full-res photos here, run scripts/process_gallery.py,
 # committed JPGs (01.jpg, 02.jpg, ...) go into assets/gallery/ at ~1600px.
 assets/gallery/_inbox/
+
+# Blockrophage course repository, checked out at build time by scripts/sync_blockrophage.py,
+# and the assets it copies into the site. Never commit either.
+/_blockrophage/
+/assets/teaching/

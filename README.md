@@ -86,3 +86,14 @@ If a commit accidentally breaks the build (rare — typically a YAML or markdown
 - Deploy: GitHub Pages via `.github/workflows/publish.yml` using the modern Actions flow
 - Custom domain via the `CNAME` file at repo root
 - Per-person cards: partials in `_people/`, included into `people.qmd` via `{{< include … >}}` shortcodes
+
+
+## Teaching page
+
+`teaching.qmd` showcases the Blockrophage block course, which lives in its own repository
+([TizzuLab/blockrophage](https://github.com/TizzuLab/blockrophage)). At build time
+`scripts/sync_blockrophage.py` checks that repository out into `_blockrophage/` (git-ignored),
+copies the lecture decks and schedule drawings into `assets/teaching/` (git-ignored) and writes
+the fragments the page includes. The publish workflow runs nightly so the page follows the
+course repository; to refresh it sooner, run the workflow by hand from the Actions tab.
+Local preview: `python3 scripts/sync_blockrophage.py && quarto preview`.

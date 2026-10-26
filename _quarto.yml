@@ -10,6 +10,9 @@ project:
     # Crawler/LLM discoverability files served from the web root.
     - robots.txt          # welcomes search + AI bots, points to sitemap.xml
     - llms.txt            # LLM-facing plain-text summary of the lab
+    # Lecture decks and schedule drawings synced from the Blockrophage course
+    # repository by scripts/sync_blockrophage.py (git-ignored, rebuilt nightly).
+    - assets/teaching/**
 
 website:
   title: "Zindel Lab"
@@ -39,6 +42,8 @@ website:
         text: Gallery
       - href: publications.qmd
         text: Publications
+      - href: teaching.qmd
+        text: Teaching
       - href: jobs.qmd
         text: Job Opportunities
       - href: contact.qmd
