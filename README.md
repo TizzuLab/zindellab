@@ -91,7 +91,7 @@ If a commit accidentally breaks the build (rare — typically a YAML or markdown
 ## Teaching page
 
 `teaching.qmd` showcases the Blockrophage block course, which lives in its own repository
-([TizzuLab/blockrophage](https://github.com/TizzuLab/blockrophage)). At build time
+([TizzuLab/blockrophage-course](https://github.com/TizzuLab/blockrophage-course)). At build time
 `scripts/sync_blockrophage.py` checks that repository out into `_blockrophage/` (git-ignored),
 copies the lecture decks and schedule drawings into `assets/teaching/` (git-ignored) and writes
 the fragments the page includes. The publish workflow runs nightly so the page follows the

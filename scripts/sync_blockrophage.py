@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Pull the Blockrophage course repository into the website build.
 
-The course lives in its own repository (github.com/TizzuLab/blockrophage); the
+The course lives in its own repository (github.com/TizzuLab/blockrophage-course); the
 website only showcases it. This script:
 
 1. makes sure `_blockrophage/` holds a checkout of that repository (CI checks it
@@ -30,7 +30,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "_blockrophage"
-REPO = "https://github.com/TizzuLab/blockrophage"
+REPO = "https://github.com/TizzuLab/blockrophage-course"
 ASSETS = ROOT / "assets" / "teaching"
 
 
@@ -155,7 +155,7 @@ def main():
     (SRC / "_site_schedule.md").write_text("\n".join(sched), encoding="utf-8")
 
     (SRC / "_site_meta.md").write_text(
-        f"*Synced nightly from [TizzuLab/blockrophage]({REPO}), commit `{sha}` of {date}; "
+        f"*Synced nightly from [TizzuLab/blockrophage-course]({REPO}), commit `{sha}` of {date}; "
         f"this page rebuilt {dt.date.today().isoformat()}.*\n", encoding="utf-8")
     print(f"synced blockrophage {sha} ({date}): {len(slides)} decks, {len(weeks)} week drawings")
 

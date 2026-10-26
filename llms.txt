@@ -31,7 +31,7 @@
 - [Research](https://zindellab.ch/research.html): themes, methods, funding.
 - [People](https://zindellab.ch/people.html): lab members.
 - [Publications](https://zindellab.ch/publications.html): Google Scholar profile (https://scholar.google.com/citations?user=BkPr9XUAAAAJ).
-- [Teaching](https://zindellab.ch/teaching.html): Blockrophage, a four-week block course on macrophage biology (in vitro, in vivo, in silico), built in the open at https://github.com/TizzuLab/blockrophage; lecture slides and schedule.
+- [Teaching](https://zindellab.ch/teaching.html): The Blockrophage course, a four-week block course on macrophage biology (in vitro, in vivo, in silico), built in the open at https://github.com/TizzuLab/blockrophage-course; lecture slides and schedule.
 - [Job Opportunities](https://zindellab.ch/jobs.html): PhD, postdoc, semester, and master/summer positions.
 - [Contact](https://zindellab.ch/contact.html): address, phone, LinkedIn.
 
