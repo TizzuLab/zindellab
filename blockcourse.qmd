@@ -1,0 +1,17 @@
+---
+title: "Block course"
+pagetitle: "Zindel Lab — Block course"
+description: "Blockrophage: a four-week block course on macrophage biology in vitro, in vivo and in silico, D-BIOL, ETH Zürich, first run in spring 2027. Built in the open on GitHub."
+toc: false
+---
+
+**Macrophage Biology: in vitro, in vivo, in silico.** A four-week block course for D-BIOL, ETH Zürich, Spring Semester 2027. Students build the textbook M1/M2 picture of macrophages with their own hands in a dish, then test it against real tissue macrophages in a published single-cell dataset. The course builds on the lecture [Tissue Repair I](lectures.qmd); Tissue Repair II–IV are for reference only.
+
+::: {.callout-warning title="Under construction"}
+The Blockrophage course runs for the first time in spring 2027 and is being built in the open. Interested students are welcome to apply and to give input through the [contact page](contact.qmd) or the [issues on GitHub](https://github.com/TizzuLab/blockrophage-course/issues). **Please do not use these protocols in the lab yet.** Values are unverified until this notice is gone.
+:::
+
+The repository is the course: the script, the schedule, every protocol, the background reading, the analysis code and a single-file companion students can hand to the language model of their choice.
+
+[Open the Blockrophage course on GitHub](https://github.com/TizzuLab/blockrophage-course){.btn .btn-primary target="_blank"}
+[Download all course material (.zip)](https://github.com/TizzuLab/blockrophage-course/archive/refs/heads/main.zip){.btn .btn-outline-light}

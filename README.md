@@ -88,12 +88,11 @@ If a commit accidentally breaks the build (rare — typically a YAML or markdown
 - Per-person cards: partials in `_people/`, included into `people.qmd` via `{{< include … >}}` shortcodes
 
 
-## Teaching page
+## Teaching pages
 
-`teaching.qmd` showcases the Blockrophage block course, which lives in its own repository
-([TizzuLab/blockrophage-course](https://github.com/TizzuLab/blockrophage-course)). At build time
-`scripts/sync_blockrophage.py` checks that repository out into `_blockrophage/` (git-ignored),
-copies the lecture decks and schedule drawings into `assets/teaching/` (git-ignored) and writes
-the fragments the page includes. The publish workflow runs nightly so the page follows the
-course repository; to refresh it sooner, run the workflow by hand from the Actions tab.
-Local preview: `python3 scripts/sync_blockrophage.py && quarto preview`.
+The Teaching menu has two entries. `lectures.qmd` embeds the lecture decks committed under
+`assets/teaching/slides/` (copies of the PDFs in
+[TizzuLab/blockrophage-course](https://github.com/TizzuLab/blockrophage-course)`/slides`; copy a
+new deck there and add a row to the page when a lecture changes). `blockcourse.qmd` is a minimal
+page that points to that course repository; the course content itself is not mirrored on the site.
+`teaching.qmd` is a short landing page that keeps the old `/teaching.html` address alive.
