@@ -7,9 +7,11 @@ toc: true
 
 Lectures given at ETH Zürich, as presented. Figures taken from the published literature are cited on the slide and remain the property of their owners.
 
+These decks are additional reading for the [block course](blockcourse.qmd), not a requirement: the course starts from scratch and assumes no prior knowledge. Tissue Repair I is the closest in content; the others are there for anyone who wants to read further.
+
 ## Immunology III: tissue macrophages
 
-Given 1 December 2025. Prerequisite for the block course; the slide numbers in the course's background reading refer to this deck.
+Given 1 December 2025. The slide numbers in the course's background reading refer to this deck.
 
 ```{=html}
 <iframe src="/assets/teaching/slides/01_ImmunologyIII_TissueMacrophages.pdf#view=FitH" title="Immunology III: tissue macrophages" loading="lazy" style="border:1px solid #1f1f1f;width:100%;aspect-ratio:16/10;background:#111"></iframe>
@@ -19,7 +21,7 @@ Given 1 December 2025. Prerequisite for the block course; the slide numbers in t
 
 ## Tissue Repair I
 
-The lecture the [block course](blockcourse.qmd) builds on.
+The lecture closest in content to the block course.
 
 ```{=html}
 <iframe src="/assets/teaching/slides/02_TissueRepair_Part1.pdf#view=FitH" title="Tissue Repair I" loading="lazy" style="border:1px solid #1f1f1f;width:100%;aspect-ratio:16/10;background:#111"></iframe>
@@ -29,7 +31,7 @@ The lecture the [block course](blockcourse.qmd) builds on.
 
 ## Tissue Repair II
 
-For reference.
+Further reading.
 
 ```{=html}
 <iframe src="/assets/teaching/slides/03_TissueRepair_Part2.pdf#view=FitH" title="Tissue Repair II" loading="lazy" style="border:1px solid #1f1f1f;width:100%;aspect-ratio:16/10;background:#111"></iframe>
@@ -39,7 +41,7 @@ For reference.
 
 ## Tissue Repair III: granulation tissue
 
-For reference.
+Further reading.
 
 ```{=html}
 <iframe src="/assets/teaching/slides/04_TissueRepair_Part3_GranulationTissue.pdf#view=FitH" title="Tissue Repair III: granulation tissue" loading="lazy" style="border:1px solid #1f1f1f;width:100%;aspect-ratio:16/10;background:#111"></iframe>
@@ -49,7 +51,7 @@ For reference.
 
 ## Tissue Repair IV: remodelling
 
-For reference.
+Further reading.
 
 ```{=html}
 <iframe src="/assets/teaching/slides/05_TissueRepair_Part4_Remodelling.pdf#view=FitH" title="Tissue Repair IV: remodelling" loading="lazy" style="border:1px solid #1f1f1f;width:100%;aspect-ratio:16/10;background:#111"></iframe>
