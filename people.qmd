@@ -66,7 +66,7 @@ The leading underscore means Quarto won't render the partials as standalone page
 
 {{< include _people/Shinta-Schoenenberger.qmd >}}
 
-
+:::
 ## Alumni
 
 ::: {.people-grid}
