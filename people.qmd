@@ -60,10 +60,18 @@ The leading underscore means Quarto won't render the partials as standalone page
 
 :::
 
+## Semester Students
+
+::: {.people-grid}
+
+{{< include _people/Shinta-Schoenenberger.qmd >}}
+
+
 ## Alumni
 
 ::: {.people-grid}
 
 {{< include _people/sophia-kuhn.qmd >}}
+
 
 :::
