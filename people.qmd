@@ -63,6 +63,9 @@ The leading underscore means Quarto won't render the partials as standalone page
 ::: {.people-grid}
 
 {{< include _people/ivo-meli.qmd >}}
+{{< include _people/sophia-kuhn.qmd >}}
+
+:::
 
 ## Semester Students
 
@@ -72,6 +75,6 @@ The leading underscore means Quarto won't render the partials as standalone page
 
 :::
 
-{{< include _people/sophia-kuhn.qmd >}}
 
-:::
+
+
