@@ -74,5 +74,4 @@ The leading underscore means Quarto won't render the partials as standalone page
 
 {{< include _people/sophia-kuhn.qmd >}}
 
-
 :::
