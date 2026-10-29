@@ -12,13 +12,18 @@ and uncomment the image line below.
 <p class="role">PhD Student</p>
 
 ::: {.contact}
-Inst. f. Molecular Health Sciences, HPL F 16.2
+Inst. f. Molecular Health Sciences, HPL F 25.2
 
 [brooke.slade@biol.ethz.ch](mailto:brooke.slade@biol.ethz.ch)
-<a href="https://www.linkedin.com/in/brooke-slade-30289410b/" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
+
+<a href="https://www.linkedin.com/in/brooke-slade-30289410b/" target="_blank"><i class="bi bi-linkedin"></i> 
+LinkedIn</a>
+
+<a href="https://orcid.org/0009-0004-5511-5187" target="_blank"><i class="ai ai-orcid"></i> ORCID</a>
+
+<a href="https://www.researchgate.net/profile/Brooke-Slade-2" target="_blank"><i class="ai ai-researchgate"></i> ResearchGate</a>
+
 :::
 
 :::
-PhD candidate in immunology enrolled in the BioMed PhD program. She completed her BSc of Biology at Florida State University and continued with an MSc of Medical Biology from the University of Salzburg in Austria. 
-
-Her research focuses on the foreign body reaction of the peritoneal cavity to implanted materials. Currently supervising the semester student Shinta Schönenberger. 
+After completing her undergraduate studies at Florida State University, Brooke earned a master’s degree in Medical Biology at the University of Salzburg, Austria. Her PhD project explores the therapeutic potential of implantable materials in the peritoneal cavity, investigating how the foreign body reaction can be attenuated or modulated to extend the functional lifetime of biomaterials. 

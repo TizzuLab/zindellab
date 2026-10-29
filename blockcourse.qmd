@@ -1,0 +1,52 @@
+---
+title: "Block course"
+pagetitle: "Zindel Lab — Block course"
+description: "Blockrophage: a four-week block course on macrophage biology in vitro, in vivo and in silico, D-BIOL, ETH Zürich, first run in spring 2027. Built in the open on GitHub."
+toc: false
+---
+
+**Macrophage Biology: in vitro, in vivo, in silico.** A four-week block course for D-BIOL, ETH Zürich, Spring Semester 2027. Students build the textbook M1/M2 picture of macrophages with their own hands in a dish, then test it against real tissue macrophages in a published single-cell dataset. There are no prerequisites: the course starts from scratch. The [lectures](lectures.qmd) are optional further reading, with Tissue Repair I the closest in content.
+
+::: {.callout-warning title="Under construction"}
+The Blockrophage course runs for the first time in spring 2027 and is being built in the open. Interested students are welcome to apply and to give input through the [contact page](contact.qmd) or the [issues on GitHub](https://github.com/TizzuLab/Blockrophage/issues). **Please do not use these protocols in the lab yet.** Values are unverified until this notice is gone.
+:::
+
+The repository is the course: the script, the schedule, every protocol, the background reading, the analysis code and a single-file companion students can hand to the language model of their choice.
+
+[Open the Blockrophage course on GitHub](https://github.com/TizzuLab/Blockrophage#readme){.btn .btn-primary target="_blank"}
+[Download all course material (.zip)](https://github.com/TizzuLab/Blockrophage/archive/refs/heads/main.zip){.btn .btn-outline-light}
+
+## Your AI companion for the course
+
+Copy this prompt to your AI tool. It contains the course script, the schedule and the protocols, and makes the tool behave as your course companion. It is loaded fresh from the repository, so it is always the current version.
+
+<details>
+<summary>The prompt (open, press Copy, close again)</summary>
+
+<button type="button" id="companion-copy" class="btn btn-primary btn-sm" disabled>Copy</button>
+<pre id="companion-text" style="max-height: 24rem; overflow: auto; white-space: pre-wrap;">Loading the companion…</pre>
+
+</details>
+
+<script>
+(() => {
+  const url = "https://raw.githubusercontent.com/TizzuLab/Blockrophage/main/stuff/companion/blockcourse-companion-core.md";
+  const pre = document.getElementById("companion-text");
+  const button = document.getElementById("companion-copy");
+  fetch(url)
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.text(); })
+    .then(text => {
+      pre.textContent = text;
+      button.disabled = false;
+      button.addEventListener("click", () => {
+        navigator.clipboard.writeText(text).then(() => {
+          button.textContent = "Copied";
+          setTimeout(() => { button.textContent = "Copy"; }, 2000);
+        });
+      });
+    })
+    .catch(() => {
+      pre.innerHTML = 'Could not load the companion. Open it <a href="' + url + '" target="_blank">here</a>, select all and copy.';
+    });
+})();
+</script>

@@ -1,0 +1,11 @@
+---
+title: "Teaching"
+pagetitle: "Zindel Lab — Teaching"
+description: "Teaching in the Zindel Lab at ETH Zürich: lectures on tissue macrophages and tissue repair, and the Blockrophage block course on macrophage biology."
+toc: false
+---
+
+Training the next generation of scientists and clinicians is part of what this lab is for. We teach the way we do research: at the bench, with real experiments that can fail, with the published data the field actually argues about, and with the tools scientists use today, including language models, used critically and logged when they are wrong.
+
+[Lectures](lectures.qmd){.btn .btn-primary}
+[Block course](blockcourse.qmd){.btn .btn-outline-light}

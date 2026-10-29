@@ -1,0 +1,21 @@
+<!--
+EDIT THIS FILE: your name, role, room, email, phone, and bio.
+Add a photo: save a square JPG (~600×600 px) as assets/people/brooke-slade.jpg
+and uncomment the image line below.
+-->
+
+::: {.person-card}
+
+![](assets/people/shinta.jpeg){.person-photo}
+
+### Shinta Schönenberger
+<p class="role">Semester Student</p>
+
+::: {.contact}
+Inst. f. Molecular Health Sciences, HPL F 25.2
+
+[shintas@student.ethz.ch](mailto:shintas@student.ethz.ch)
+
+Supervision of semester project by Brooke Slade.
+
+:::
