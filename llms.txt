@@ -32,7 +32,7 @@
 - [People](https://zindellab.ch/people.html): lab members.
 - [Publications](https://zindellab.ch/publications.html): Google Scholar profile (https://scholar.google.com/citations?user=BkPr9XUAAAAJ).
 - [Lectures](https://zindellab.ch/lectures.html): lecture slides given at ETH Zürich (Immunology III: tissue macrophages; Tissue Repair I–IV).
-- [Block course](https://zindellab.ch/blockcourse.html): the Blockrophage course, a four-week block course on macrophage biology (in vitro, in vivo, in silico), built in the open at https://github.com/TizzuLab/blockrophage-course (first run spring 2027, under construction).
+- [Block course](https://zindellab.ch/blockcourse.html): the Blockrophage course, a four-week block course on macrophage biology (in vitro, in vivo, in silico), built in the open at https://github.com/TizzuLab/Blockrophage (first run spring 2027, under construction).
 - [Job Opportunities](https://zindellab.ch/jobs.html): PhD, postdoc, semester, and master/summer positions.
 - [Contact](https://zindellab.ch/contact.html): address, phone, LinkedIn.
 
