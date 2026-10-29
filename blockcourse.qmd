@@ -13,7 +13,7 @@ The Blockrophage course runs for the first time in spring 2027 and is being buil
 
 The repository is the course: the script, the schedule, every protocol, the background reading, the analysis code and a single-file companion students can hand to the language model of their choice.
 
-[Open the Blockrophage course on GitHub](https://github.com/TizzuLab/Blockrophage){.btn .btn-primary target="_blank"}
+[Open the Blockrophage course on GitHub](https://github.com/TizzuLab/Blockrophage#readme){.btn .btn-primary target="_blank"}
 [Download all course material (.zip)](https://github.com/TizzuLab/Blockrophage/archive/refs/heads/main.zip){.btn .btn-outline-light}
 
 ## Your AI companion for the course
@@ -30,7 +30,7 @@ Copy this prompt to your AI tool. It contains the course script, the schedule an
 
 <script>
 (() => {
-  const url = "https://raw.githubusercontent.com/TizzuLab/Blockrophage/main/companion/blockcourse-companion-core.md";
+  const url = "https://raw.githubusercontent.com/TizzuLab/Blockrophage/main/stuff/companion/blockcourse-companion-core.md";
   const pre = document.getElementById("companion-text");
   const button = document.getElementById("companion-copy");
   fetch(url)
