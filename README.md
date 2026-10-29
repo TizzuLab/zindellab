@@ -92,7 +92,7 @@ If a commit accidentally breaks the build (rare — typically a YAML or markdown
 
 The Teaching menu has two entries. `lectures.qmd` embeds the lecture decks committed under
 `assets/teaching/slides/` (copies of the PDFs in
-[TizzuLab/blockrophage-course](https://github.com/TizzuLab/blockrophage-course)`/slides`; copy a
+[TizzuLab/Blockrophage](https://github.com/TizzuLab/Blockrophage)`/slides`; copy a
 new deck there and add a row to the page when a lecture changes). `blockcourse.qmd` is a minimal
 page that points to that course repository; the course content itself is not mirrored on the site.
 `teaching.qmd` is a short landing page that keeps the old `/teaching.html` address alive.
